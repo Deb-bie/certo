@@ -8,15 +8,7 @@ import Zd from "../../assets/images/zd.png"
 import Readers from "../../assets/images/readers.png"
 import Yellow from "../../assets/images/yellow.png"
 import Girl from "../../assets/images/girl.png"
-import Eye from "../../assets/images/eye.png"
-// import Readers from "../../assets/images/readers.png"
-// import Readers from "../../assets/images/readers.png"
-// import Readers from "../../assets/images/readers.png"
-// import Readers from "../../assets/images/readers.png"
-// import Readers from "../../assets/images/readers.png"
-// import Readers from "../../assets/images/readers.png"
-// import Readers from "../../assets/images/readers.png"
-// import Readers from "../../assets/images/readers.png"
+
 
 import { Freedom } from '../../data/data'
 
@@ -79,7 +71,7 @@ const Hero = () => {
             </div>
         </div>
 
-        <div className='w-[100%] h-auto bg-[#F8F9FD] flex flex-col content-center items-center 4xs:px-6 sm:px-20 md:px-40 py-12 my-12 '>
+        <div className='w-[100%] h-auto bg-[#F8F9FD] flex flex-col content-center items-center 4xs:px-6 sm:px-20 md:px-40 py-12 mt-12 '>
             <h1 className='text-xl font-[700] text-[#181818]'>Get your freedom back, stop mobile spyware today</h1>
             <div className='w-[100%] py-12 grid 4xs:grid-cols-1 sm:grid-cols-2 gap-x-[70px]'>
 
@@ -106,6 +98,8 @@ const Hero = () => {
                 </button>
             </div>
         </div>
+
+        
     </div>
   )
 }
