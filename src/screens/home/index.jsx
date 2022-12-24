@@ -1,17 +1,26 @@
 import React from 'react'
-import FifthSection from '../../components/fifthSection'
+import Banner from '../../components/banner'
+import LogoSoup from '../../components/logoSoup'
+import WhyChoose from '../../components/choose'
+import Features from '../../components/features'
+import Customer from '../../components/customer'
+import Latest from '../../components/latest'
+import Download from '../../components/download'
+import ReadMore from '../../components/read'
 import Footer from '../../components/footer'
-import FourthSection from '../../components/fourthSection'
-import Hero from '../../components/hero'
-import ThirdSection from '../../components/thirdSection'
+
 
 const Home = () => {
   return (
     <div>
-      <Hero />
-      <ThirdSection />
-      <FourthSection />
-      <FifthSection />
+      <Banner />
+      <LogoSoup />
+      <WhyChoose />
+      <Features />
+      <Customer />
+      <Latest />
+      <Download />
+      <ReadMore />
       <Footer />
     </div>
   )
