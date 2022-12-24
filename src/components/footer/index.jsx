@@ -3,13 +3,12 @@ import Logo from "../../assets/logo/logo.png"
 import {AiOutlineInstagram, AiFillLinkedin} from 'react-icons/ai'
 import {BsTwitter, BsFacebook} from "react-icons/bs"
 
-
 const Footer = () => {
   return (
-    <div className='w-[100%] h-[100%] bg-[#02033B] overflow-hidden '>
+    <div className='foot w-[100%] h-[100%] bg-[#02033B] overflow-hidden '>
         <div className='w-[100%] h-[100%] flex flex-row justify-center  '>
             <div className='w-[80%] h-[100%] py-20 flex flex-col flex-wrap  '>
-                <div className='w-[100%] h-[100%] pb-16 flex flex-row justify-evenly items-start content-center flex-wrap gap-y-12 '>
+                <div className='w-[100%] h-[100%] pb-16 flex flex-row justify-evenly items-start content-center flex-wrap gap-y-12 gap-x-6 '>
                     <div className='h-[100%] flex flex-col '>
                         <div className='flex flex-row items-center'>
                             <img src={Logo} alt="logo" />

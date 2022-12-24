@@ -10,10 +10,4 @@
     height: 100%;
     position: relative;
     border-radius: 20px;
-  }
-  
-  .top h2 {
-    color: white;
-    margin: 0;
-    padding: 20px;
-  }
+}
